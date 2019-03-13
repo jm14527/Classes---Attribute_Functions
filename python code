@@ -1,0 +1,7 @@
+how_many_s = [{'s': False}, "sassafrass", 18, ["a", "c", "s", "d", "s"]]
+
+for elt in how_many_s:
+  if hasattr(elt, "count"):
+    print("{elt} has ".format(elt = elt) + str(elt.count("s")) + " many s\'s.")
+  else:
+    False
